@@ -44,3 +44,4 @@ Notes
 
 - The SQLite file is stored in `data/todos.db`. Add this path to `.gitignore` (already done).
 - If you want a different DB file path, edit `server.js`.
+- Test auto deploy ${ngày giờ}
