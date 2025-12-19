@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: duan1_node_sqlite
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+    volumes:
+      - ./data:/app/data
